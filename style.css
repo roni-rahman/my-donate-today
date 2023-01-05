@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    background-color: #FF5959;
+    color: white;
+    padding: 15px 25px;
+    font-size: 24px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.section-description {
+    font-size: 21px;
+    color: grey;
+}
+
+/* header css */
+header {
+    /* background-image: url('images/donation8.jpg'); */
+    background: linear-gradient(to bottom, transparent, black),
+    url("images/donation8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner, .donate-today, .our-donate-plan {
+    padding: 190px 0;
+    text-align: center;
+}
+
+.headline {
+    font-size: 76px;
+    color: white;
+    font-weight: 700;
+}
+.banner-para {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-size: 21px;
+}
+
+/* donate today css */
+.amount {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.other {
+    padding: 50px 30px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: 700;
+    color: grey;
+}
+
+.duisho {
+    color: #FF5959;
+    padding: 50px 30px;
+    background-color: #FFEEEE;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: 700;
+    border: 2px solid #FF5959;
+}
+
+.other-amount{
+    color: lightgray;
+    font-size: 22px;
+}
+hr {
+    max-width: 900px;
+    margin: 20px auto;
+    color: gray;
+}
