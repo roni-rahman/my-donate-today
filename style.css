@@ -34,7 +34,7 @@ header {
     background-size: cover;
 }
 
-.banner, .donate-today, .our-donate-plan {
+.banner {
     padding: 190px 0;
     text-align: center;
 }
@@ -52,6 +52,10 @@ header {
 }
 
 /* donate today css */
+.donate-today {
+    text-align: center;
+    margin-top: 170px;
+}
 .amount {
     display: flex;
     gap: 15px;
@@ -85,5 +89,135 @@ header {
 hr {
     max-width: 900px;
     margin: 20px auto;
+    color: gray;
+}
+
+/* our donate plan */
+.our-donate-plan {
+    margin-top: 170px;
+}
+.our-donate-plan h2, .our-donate-plan p {
+    text-align: center;
+}
+.feature {
+    display: flex;
+    margin: 60px auto 20px;
+    max-width: 1200px;
+    gap: 30px;
+    justify-content: center;
+}
+.food {
+    background-color: #EDF5F6;
+    padding: 25px;
+
+}
+.shelter {
+    background-color: #FFEEEE;
+    padding: 25px;
+}
+.education {
+    background-color: #FFF4D6;
+    padding: 25px;
+}
+.feature-img {
+    text-align: left;
+    margin-top: 40px;
+}
+.feature-title {
+    text-align: left;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.feature-description {
+    text-align: left!important;
+    font-size: 19px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+/* image section */
+.first-section {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 150px auto 150px;
+}
+.left-section h2 {
+    margin-top: 80px;
+}
+.left-section {
+    width: 50%;
+}
+.right-section {
+    width: 50%;
+}
+.right-section img {
+    object-fit: cover;
+    height: 530px;
+    width: 500px;
+    border-radius: 10px;
+}
+.spara {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.second-section {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 150px auto 150px;
+}
+.right-section h2 {
+    margin-top: 80px;
+}
+.left-section img {
+    object-fit: cover;
+    height: 530px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* update section */
+.updates {
+    text-align: center;
+}
+.subscribe {
+    background-color: #FFF4D6;
+    max-width: 800px;
+    margin: 40px auto 120px;
+    padding: 80px;
+    border-radius: 5px;
+}
+.email-feild {
+    padding: 15px;
+    border: none;
+    width: 300px;
+}
+.subscribe-btn {
+    border: none;
+    padding: 15px;
+    background-color: #FF5959;
+    color: #EDF5F6;
+}
+input {
+    font-size: 20px;
+}
+
+/* footer section */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+.stylish-footer {
+    font-size: 44px;
+    color: #FF5959;
+    font-weight: 700;
+    font-style: italic;
+}
+footer p {
     color: gray;
 }
